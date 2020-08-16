@@ -1,0 +1,102 @@
+*{margin:0;padding:0;}
+/*header*/
+.socail_link ul{
+	list-style-type: none;
+    margin-top: 37px;
+}
+.socail_link ul li{float:right;padding-right: 13px;}
+.undrmnu_srch input{
+	width: 75%;
+    height: 30px;
+    border: 1px solid #ababab;
+    border-radius: 5px;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    padding: 0 10px;
+    background:#D24260;
+    font: normal 14px Arial, Helvetica, sans-serif;
+    color: #1F5A9D;
+    margin-top:37px;
+    margin-left: 21%;
+	border-radius: 50px;
+}
+.undrmnu_srch input[type="submit"]{
+	width: 27px;
+    height: 18px;
+    cursor: pointer;
+    text-indent: -999999px;
+    border: none;
+    background: url(img/serachvar.png) no-repeat;
+    position: absolute;
+    top: 6px;
+    right: 28px;
+}
+/*nav var */
+.bg-light {
+    background: linear-gradient(39deg, #262121, #000000db);
+    width: 98%;
+    margin-left: 1%;
+}
+.navbar-light .navbar-nav .nav-link {
+    color: rgb(255, 243, 243);
+	transition:all 0.5s ease;
+}
+.navbar-light .navbar-nav .nav-link:hover {
+    color:orange;
+}
+.ml-auto, .mx-auto {
+    margin-left:-4px!important;
+}
+/* slider*/
+
+/*blog section*/
+.blog_section h3{padding-top:50px;padding-bottom:30px;color:white;overflow:hidden;}
+.service_blog img{float:left;margin-right: 18px;padding-bottom: 5px;}
+.service_blog h6{font-weight:bold;color:#d6d3d373}
+.service_blog p{ margin-top: -8px;color:white}
+.client_say img{float:left;padding-right: 5%;}
+.client_say h6{
+	width: 67%;
+    margin-left: 4%;
+    float: left;
+    margin-top: 3%;
+	font-weight:bold;
+	color:#d6d3d373
+	}
+	.about_us p{color:white}
+	#about_us_coloring{padding-top: 44px;padding-bottom:20px}
+	#service_coloring{}
+.client_say p{ color:white ; float: left;}
+.coloring_line{color:red;display:inline-block}
+/* project discuss*/
+.project_discuss h2{color:white}
+.project_discuss p{color:white}
+.project_discuss img{margin-top: 12px;}
+.project_discuss h6{color:#cc1010d4;margin-top:19px;}
+/*footer top*/
+.footer_top h5{color:white;}
+.footer_top p{color:white;}
+.link_style ul{list-style-type:none;}
+.link_style ul li{padding-top:16px;border-bottom: 1px solid white;}
+.link_style ul li a:hover {text-decoration:none}
+.text{
+	margin-top: 10px;
+    padding-left: 10px;
+    border-radius: 8px;
+    padding-right: 25px;
+    background: #2C2C2C;
+    padding-top: 4px;
+    padding-bottom: 4px;
+}
+.submit{
+	background: #2c2c2c;
+    padding: 8px;
+    color: #ff0707d9;
+    display: inline-block;
+    width: 100px;
+    text-align: center;
+    margin-top: 17px;
+    border-radius: 9px;
+    font-weight: bold;
+}
